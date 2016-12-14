@@ -1,0 +1,61 @@
+<!-- DATA X @ The Glass Room -->
+<!-- created by Regina Flores Mir + Hang Do Thi Duc -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>What can be inferred from your Facebook data?</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href='http://fonts.googleapis.com/css?family=Roboto+Mono:400,100,‌​100italic,400italic' rel='stylesheet' type='text/css'>
+    <style>
+    body { font-family: 'Roboto Mono', monospace; margin: 0; padding: 0; background-color: black; color: white; } a, a:hover, a:focus { color: #fff; cursor: pointer; text-decoration: underline; } .panel, .panel-heading { background-color: transparent; border-radius: 0px; } .panel-default {border: 0px;} .table-hover>tbody>tr:hover { background-color: #222; } .table-header { text-transform: uppercase; color: #FF0000; border-bottom: 4px solid #fff; } .perc { color: #0000FF; } .prob { color: #FF00FF; }
+    </style>
+</head>
+
+<body>
+    <center>
+        <h2>Prediction Data</h2>
+        <p><a href="https://applymagicsauce.com/documentation_traits.html">API documentation</a></p>
+    </center>
+    <div class="container">
+        <div class="row">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading"> Note: Percentiles <span class="perc">(Perc)</span> are relative to the general population; Probability indicated with <span class="prob">(Prob)</span></div>
+                <table class="table table-hover table-inverse" id="interpretations">
+                    <tr class="table-header">
+                        <td>Interpretation trait</td>
+                        <td>Value</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="panel panel-default">
+                <!-- Default panel contents -->
+                <div class="panel-heading">Predictions and Contributions </div>
+                <table class="table table-hover table-inverse" id="predictions">
+                    <tr class="table-header">
+                        <td>Prediction trait</td>
+                        <td>Prediction Value</td>
+                        <td>Negative Contributors
+                            <br>(Like IDs)</td>
+                        <td>Positive Contributors
+                            <br>(Like IDs)</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <center><a href="http://data-x.org">DATA X</a> _ <a href="https://theglassroomnyc.org/artists/">The Glass Room</a> _ December 1, 2016</center>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.2/lodash.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+  "name": "node_apply-magic-sauce",
+  "version": "1.0.0",
+  "description": "Working with Apply Magic Sauce.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/228miles/node_apply-magic-sauce.git"
+  },
+  "author": "Hang Do Thi Duc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/228miles/node_apply-magic-sauce/issues"
+  },
+  "homepage": "https://github.com/228miles/node_apply-magic-sauce#readme",
+  "dependencies": {
+    "node-rest-client": "^2.0.1"
+  }
+}
