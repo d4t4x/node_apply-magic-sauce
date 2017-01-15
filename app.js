@@ -71,4 +71,4 @@ function saveData(data, name) {
     filesystem.writeFile("./" + name + ".json", JSON.stringify(data, null, 2));
 }
 
-getPrediction(secrets.token);
+getPrediction();
