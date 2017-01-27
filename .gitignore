@@ -1,4 +1,5 @@
 # Secrets
+secrets/
 secrets.*
 test*.json
 
