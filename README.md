@@ -9,7 +9,7 @@ Predicted Traits from Like IDs: https://applymagicsauce.com/documentation_traits
 See what Facebook tells you it knows about you: https://www.facebook.com/ads/preferences/
 
 
-##Instructions for setup
+## Instructions for setup
 
 - get customer ID and API key at https://applymagicsauce.com/research.html
 - open terminal
@@ -20,7 +20,7 @@ See what Facebook tells you it knows about you: https://www.facebook.com/ads/pre
     - leave the ```token``` for now
 - in the terminal window type ```node app.js```
 
-##Example Facebook Like IDs
+## Example Facebook Like IDs
 
 18807449704 - Mashable
 
@@ -46,7 +46,7 @@ See what Facebook tells you it knows about you: https://www.facebook.com/ads/pre
 
 https://developers.facebook.com/tools/explorer/
 
-##View predictions in HTML format
+## View predictions in HTML format
 
 This page will automatically grab the ```predictions.json``` file from the folder to display the data in a more readable format. It also adds links to the corresponding Facebook pages. So, e.g. Mashable can be accesed via http://facebook.com/18807449704.
 
