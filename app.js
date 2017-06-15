@@ -11,14 +11,21 @@ var likes = [
     "115384328477363", // The Creators Project
     "7976226799", // The Daily Show
     "10429446003", // The xx
-    "5878552155", // Ludovico Einaudi
-    "6815841748", // Barack Obama
-    "35481394342", // The Godfather
-    "9328458887", // adidas Originals
-    "12463674069", // Curly Fries
+    // "5878552155", // Ludovico Einaudi
+    // "6815841748", // Barack Obama
+    // "35481394342", // The Godfather
+    // "9328458887", // adidas Originals
+    // "12463674069", // Curly Fries
+    "193081554406", // tagesschau
+    "215982125159841", // SZ
+    "38246844868", // Spiegel Online
+    "110495738982958", // Jan Böhmermann
+    "127086567317212", // Philipp Poisel
+    "171844246207985", // TAZ
+    "59788447049", // Angela Merkel
     // not contributors s. result in prediction.json
-    "124955570892789", // Bernie Sanders
-    "102099916530784", // Humans of New York
+    // "124955570892789", // Bernie Sanders
+    // "102099916530784", // Humans of New York
 ];
 
 function getPrediction() {
@@ -42,7 +49,8 @@ function getPrediction() {
                 console.log("No prediction could be made based on like ids provided.");
             } else {
                 console.log(data);
-                saveData(data, "prediction");
+                // name of file as parameter
+                saveData(data, "prediction-dt");
             }
         });
 }
